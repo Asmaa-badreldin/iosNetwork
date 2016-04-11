@@ -104,6 +104,7 @@
 		D18703D21CBABC2F0044AA9C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		D18703DC1CBABDD90044AA9C /* NetWorkHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkHandler.h; sourceTree = "<group>"; };
 		D18703DD1CBABDD90044AA9C /* NetWorkHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkHandler.m; sourceTree = "<group>"; };
+		D19AD2A31CBBEB7300650BB9 /* ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios.h; sourceTree = "<group>"; };
 		D1B76C961CB98B470088D3DC /* NetWorkDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWorkDelegate.h; sourceTree = "<group>"; };
 		D1B76C971CB98BC70088D3DC /* NetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManager.h; sourceTree = "<group>"; };
 		D1B76C981CB98BC70088D3DC /* NetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManager.m; sourceTree = "<group>"; };
@@ -221,6 +222,7 @@
 		D1CA93AD1CB986F5006C4FA1 = {
 			isa = PBXGroup;
 			children = (
+				D19AD2A31CBBEB7300650BB9 /* ios.h */,
 				D1D1B8A81CBB4270007FD8C4 /* jets.png */,
 				D1D1B8A51CBB3C49007FD8C4 /* SpeakersTableView.h */,
 				D1D1B8A61CBB3C49007FD8C4 /* SpeakersTableView.m */,
