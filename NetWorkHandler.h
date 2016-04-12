@@ -14,5 +14,6 @@
 @property id<NetWorkDelegate> netDelegate;
 
 -(NSDictionary *) getSpeakers;
+@property NSMutableArray *speakers;
 
 @end
