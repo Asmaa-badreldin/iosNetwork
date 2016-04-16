@@ -8,12 +8,20 @@
 
 #import <Foundation/Foundation.h>
 #import "NetWorkDelegate.h"
+#import "JETSProfile.h"
 
 @interface NetWorkHandler : NSObject
 
 @property id<NetWorkDelegate> netDelegate;
 
--(NSDictionary *) getSpeakers;
+//-(NSDictionary *) getSpeakers;
+-(NSDictionary *) getProfile;
+//-(NSDictionary *) getSpeakers:(JETSProfile*)profile;
+//-(NSDictionary *) getSessions;
+@property NSMutableArray *profiles;
 @property NSMutableArray *speakers;
+@property NSMutableArray *sessions;
+
+@property NSString *test;
 
 @end

@@ -43,7 +43,6 @@
 		D1CA93DB1CB986F5006C4FA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1CA93BD1CB986F5006C4FA1 /* UIKit.framework */; };
 		D1CA93E31CB986F5006C4FA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1CA93E11CB986F5006C4FA1 /* InfoPlist.strings */; };
 		D1CA93E51CB986F5006C4FA1 /* IOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1CA93E41CB986F5006C4FA1 /* IOSProjectTests.m */; };
-		D1D1B8A71CBB3C49007FD8C4 /* SpeakersTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D1B8A61CBB3C49007FD8C4 /* SpeakersTableView.m */; };
 		D1D1B8A91CBB4270007FD8C4 /* jets.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D1B8A81CBB4270007FD8C4 /* jets.png */; };
 /* End PBXBuildFile section */
 
@@ -125,8 +124,6 @@
 		D1CA93E01CB986F5006C4FA1 /* IOSProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IOSProjectTests-Info.plist"; sourceTree = "<group>"; };
 		D1CA93E21CB986F5006C4FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D1CA93E41CB986F5006C4FA1 /* IOSProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSProjectTests.m; sourceTree = "<group>"; };
-		D1D1B8A51CBB3C49007FD8C4 /* SpeakersTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersTableView.h; sourceTree = "<group>"; };
-		D1D1B8A61CBB3C49007FD8C4 /* SpeakersTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersTableView.m; sourceTree = "<group>"; };
 		D1D1B8A81CBB4270007FD8C4 /* jets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jets.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -224,8 +221,6 @@
 			children = (
 				D19AD2A31CBBEB7300650BB9 /* ios.h */,
 				D1D1B8A81CBB4270007FD8C4 /* jets.png */,
-				D1D1B8A51CBB3C49007FD8C4 /* SpeakersTableView.h */,
-				D1D1B8A61CBB3C49007FD8C4 /* SpeakersTableView.m */,
 				D18703DC1CBABDD90044AA9C /* NetWorkHandler.h */,
 				D18703DD1CBABDD90044AA9C /* NetWorkHandler.m */,
 				D18703BF1CBABC2F0044AA9C /* AFNetworking */,
@@ -409,7 +404,6 @@
 				D18703A31CBAB3F80044AA9C /* JETSProfile.m in Sources */,
 				D18703A21CBAB3F80044AA9C /* JETSExhibitor.m in Sources */,
 				D18703A51CBAB3F80044AA9C /* JETSSpeaker.m in Sources */,
-				D1D1B8A71CBB3C49007FD8C4 /* SpeakersTableView.m in Sources */,
 				D18703BE1CBABC180044AA9C /* UIWebView+AFNetworking.m in Sources */,
 				D18703D71CBABC2F0044AA9C /* AFSecurityPolicy.m in Sources */,
 				D18703BD1CBABC180044AA9C /* UIProgressView+AFNetworking.m in Sources */,
